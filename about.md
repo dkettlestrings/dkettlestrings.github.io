@@ -4,5 +4,4 @@ title: About
 permalink: /about/
 ---
 
-This site covers everything I'm working on and thinking about.  
-Stay tuned as I get this fleshed out.
+This site is about everything I'm thinking about/doing.  Themes tend to focus on software, but not to the exclusion of my other hobbies: brewing, cooking, tinkering, and complaining.
