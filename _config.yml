@@ -14,7 +14,7 @@ linkedin_username:  david-kettlestrings
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: slate
 gems:
   - jekyll-feed
 exclude:
