@@ -1,22 +1,29 @@
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: The Home of Kettlesoft
+title: "Kettlesoft"
 email: dkettlestrings@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Stuff I'm thinking about and doing.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+description: "Everything I'm Thinking About"
+baseurl: ""
+url: "https://dkettlestrings.github.io/"
+title_description: "This site is about everything I'm thinking about/doing.  Themes tend to focus on software, but not to the exclusion of my other hobbies: brewing, cooking, tinkering, and complaining."
+title_image: "./assets/title_image.JPG"
+disqus_account: kettlesoft
+github_repository: https://github.com/dkettlestrings/dkettlestrings.github.io
+post_limit: 5
+
+# Social usernames/URLs
 github_username:  dkettlestrings
-linkedin_username:  david-kettlestrings
+linkedin_link: https://linkedin.com/in/david-kettlestrings/
+
+# Footer
+footer_left: "<a href=\"https://github.com/jacobtomlinson/carte-noire\">Carte Noir</a> theme by <a href=\"https://twitter.com/_JacobTomlinson\">Jacob Tomlinson</a>"
+footer_right: "Site source on <a href=\"https://github.com/dkettlestrings/dkettlestrings.github.io\">Github</a> &nbsp;<i class=\"fa fa-github-alt\"></i>"
 
 # Build settings
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
-exclude:
-  - Gemfile
-  - Gemfile.lock
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+permalink: pretty
+exclude: [vendor]
