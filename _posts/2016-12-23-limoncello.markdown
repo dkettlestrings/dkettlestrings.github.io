@@ -2,6 +2,7 @@
 layout: post
 title:  "Limoncello"
 date:   2016-12-23
+categories: food/drink
 ---
 
 As promised [long ago]({{ site.baseurl }}{% link _posts/2015-12-08-the-real-reason.markdown %}), I'm posting a recipe for [limoncello](https://en.wikipedia.org/wiki/Limoncello).  I've finally abandoned all of my crazy ideas about building my own blogging framework and just started using [GitHub Pages](https://pages.github.com/) with [Jekyll](https://jekyllrb.com/).  I can finally write content without developing code at the same time.
